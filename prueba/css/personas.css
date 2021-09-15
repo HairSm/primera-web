@@ -1,0 +1,86 @@
+@import url("normalize.css");
+
+body,html
+{
+	background: #EEE;
+	fond-family: Helvetica,Arial;
+	font-size: 10px;
+	text-align: center;
+}
+
+img {max-width: 100%;}
+
+#cabecera,#contenido
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+
+#contenido
+{
+	background: white;
+	width: 50%;
+}
+#insertar,#editar,#borrar{ 
+	color: #292623;
+	 font-size: 1.5em;
+ }
+#insertar:hover,#editar:hover,#borrar:hover
+{ 
+	color: #EC673A;
+}
+
+.error,.exito
+{
+	background: red;
+	color: white;
+	padding: 1em;
+}
+.exito{
+	background: green;
+}
+#cabecera,#contenido,#precarga,#respuesta, .tabla td, .tabla th{padding: 1em;}
+
+#precarga,#respuesta{
+	display: none;
+}
+.exito{background: green;}
+
+.formulario
+{
+ text-align: left; 
+}
+.formulario div {
+	margin: 1em auto;
+}
+
+.formulario th {
+	background: #292623;
+	color: #EEE;
+}	
+
+.tabla
+{
+	margin: auto;
+	width: 80%;
+}
+.tabla a {
+	color: #EEE;
+}
+.tabla :hover {
+	color: #292623;
+}
+.tabla td {
+	vertical-align: top;
+}
+.tabla th {
+	background: #292623;
+	color: #EEE;
+}
+.tabla tr:nth-child(odd) {
+	background: #1CFFF0;
+}
+.tabla tr:nth-child(even) {
+	background: #1CB0FF;
+}
